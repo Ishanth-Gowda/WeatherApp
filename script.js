@@ -10,7 +10,7 @@ let conditionimg = document.querySelector('.condition img');
 form.addEventListener('submit', function (e) {
     e.preventDefault();
     let val = input.value;
-    let apiurl = 'http://api.weatherapi.com/v1/current.json?key=57b606615f4c45999fc111628250105&q=' + val + '&aqi=no';
+    let apiurl = 'https://api.weatherapi.com/v1/current.json?key=57b606615f4c45999fc111628250105&q=' + val + '&aqi=no';
     // call API now:
     fetch(apiurl)
         // API response to be succesful:
