@@ -32,8 +32,5 @@ form.addEventListener('submit', function (e) {
             conditionimg.src = "https:" + imagesrc;
         })
         // catch the error:
-        .catch(error => {
-            window.alert("Please type the correct name");
-            console.error('Error:', error);
-        })
+        
 })
