@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.container {
+    width: 100vw;
+    height: 80vh;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.weather {
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.weather>div {
+    margin: 0.6rem;
+}
+
+.weather p {
+    font-size: 2rem;
+    letter-spacing: 0.11rem;
+}
+
+.weather span {
+    font-size: 0.9rem;
+    letter-spacing: 0.11rem;
+}
+
+.weather img {
+    width: 2rem;
+}
+
+nav {
+    background-color: lightslategray;
+    height: 20vh;
+    width: 100vw; /* not necessary */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search {
+    font-size: 1.25rem;
+    width: 55vw;
+    border: none;
+    outline: none;
+    border-bottom: 2.2px solid white;
+    background-color: transparent;
+    letter-spacing: 0.1rem;
+    color: white;
+    padding: 0.8rem 0;
+}
+
+input::placeholder {
+    color: white;
+    opacity: 0.5;
+}
+
+nav button {
+    margin-left: 1rem;
+    padding: 0.9rem 2rem;
+    color: white;
+    background-color: brown;
+    font-size: 1.25rem;
+    letter-spacing: 0.1rem;
+    border: none;
+    cursor: pointer;
+}
